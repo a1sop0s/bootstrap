@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('resources/webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('resources/webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: Gilroy-ExtraBold;
+    font-size: 66px;
+    line-height: 87px;
+    width: 457px;
+    word-wrap: break-word;
+}
