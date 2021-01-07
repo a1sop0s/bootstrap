@@ -16,3 +16,46 @@ h1 {
     width: 457px;
     word-wrap: break-word;
 }
+
+h2 {
+  font-family: Gilroy-ExtraBold;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+#services p {
+  font-family: Arial;
+  font-size: 13px;
+  width: 600px;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+#services .row p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  width: 197px;
+  word-wrap: break-word;
+}
+
+#services h3 {
+  font-family: Gilroy-ExtraBold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.packages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  border-radius: 17px;
+  background-color: #7620FF;
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+  padding-inline: 30px;
+}
