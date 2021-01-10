@@ -59,3 +59,9 @@ h2 {
   line-height: 22px;
   padding-inline: 30px;
 }
+
+
+.navbar-nav > li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
