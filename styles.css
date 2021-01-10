@@ -23,7 +23,7 @@ h2 {
   line-height: 49px;
 }
 
-#services p {
+.services p {
   font-family: Arial;
   font-size: 13px;
   width: 600px;
@@ -31,7 +31,7 @@ h2 {
   word-wrap: break-word;
 }
 
-#services .row p {
+.services .row p {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   line-height: 26px;
@@ -39,25 +39,45 @@ h2 {
   word-wrap: break-word;
 }
 
-#services h3 {
+.services h3 {
   font-family: Gilroy-ExtraBold;
   font-size: 20px;
   line-height: 20px;
 }
 
-.packages {
+.landbox {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: flex-start;
+  background-color: #F5F5F5;
+  background-size: 700px 650px;
+}
+
+.spacearound {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 100%;
+}
+
+.logos {
+  height: 251px;
+  background-color: #F5F5F5;
 }
 
 .btn {
-  border-radius: 17px;
+  border-radius: 25px;
   background-color: #7620FF;
   color: white;
   font-size: 14px;
   line-height: 22px;
   padding-inline: 30px;
+}
+
+.getstarted {
+  border-radius: 30px;
+  padding-block: 15px;
+  padding-inline: 52px;
 }
 
 
