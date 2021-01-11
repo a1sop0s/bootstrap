@@ -46,11 +46,35 @@ h2 {
 }
 
 .landbox {
-  display: flex;
-  justify-self: flex-end;
-  justify-content: flex-start;
   background-color: #F5F5F5;
   background-size: 700px 650px;
+  width: 700px;
+  height: 650px;
+  position: absolute;
+  z-index: -100;
+  right: 0px;
+}
+
+.quote {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  justify-content: center;
+  border-radius: 25px;
+  width: 335px;
+  height: 181px;
+  background-color: #0B093B;
+  z-index: 0;
+}
+
+.quote p {
+  color: white;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  word-wrap: break-word;
+  justify-self: center;
+  justify-content: center;
+  height: 100%
 }
 
 .spacearound {
