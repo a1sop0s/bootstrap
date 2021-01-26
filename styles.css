@@ -55,6 +55,12 @@ h2 {
   right: 0px;
 }
 
+.dots {
+  position: relative;
+  left: 1250px;
+  bottom: 100px;
+}
+
 .package {
   border-radius: 25px;
   border-color: white;
