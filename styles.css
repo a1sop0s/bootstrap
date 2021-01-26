@@ -55,10 +55,8 @@ h2 {
   right: 0px;
 }
 
-.dots {
-  position: relative;
-  left: 1250px;
-  bottom: 100px;
+.end {
+  height: 230px;
 }
 
 .package {
